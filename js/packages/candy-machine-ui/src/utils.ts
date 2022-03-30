@@ -27,6 +27,7 @@ const numberFormater = new Intl.NumberFormat('en-US', {
   maximumFractionDigits: 2,
 });
 
+
 export const formatNumber = {
   format: (val?: number) => {
     if (!val) {
