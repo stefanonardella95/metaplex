@@ -28,6 +28,7 @@ const numberFormater = new Intl.NumberFormat('en-US', {
 });
 
 
+
 export const formatNumber = {
   format: (val?: number) => {
     if (!val) {
